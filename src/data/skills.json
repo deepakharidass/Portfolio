@@ -1,0 +1,346 @@
+
+{
+  "domains": [
+    {
+      "id": "frontend",
+      "code": "DEV",
+      "title": "Frontend Developer",
+      "slug": "frontend",
+      "tagline": "Building responsive, interactive, and user-friendly web applications.",
+      "description": "Focused on developing modern web interfaces using HTML, CSS, JavaScript, and React.js. Interested in creating responsive layouts, improving user experiences, and transforming design concepts into functional web applications.",
+      "highlights": [
+        "HTML5 / CSS3 / JavaScript",
+        "React.js / Component-Based Development",
+        "Responsive Web Design / Git & GitHub"
+      ],
+      "skills": [
+        {
+          "name": "HTML5",
+          "category": "Core",
+          "proficiency": 85,
+          "years": "Learning & project experience",
+          "icon": "Code",
+          "description": "Semantic HTML, page structure, forms, accessibility fundamentals, and web content organization."
+        },
+        {
+          "name": "CSS3",
+          "category": "Styling",
+          "proficiency": 85,
+          "years": "Learning & project experience",
+          "icon": "Palette",
+          "description": "Responsive layouts, Flexbox, CSS Grid, animations, transitions, and modern styling."
+        },
+        {
+          "name": "JavaScript",
+          "category": "Language",
+          "proficiency": 70,
+          "years": "Learning & project experience",
+          "icon": "Terminal",
+          "description": "ES6 fundamentals, DOM manipulation, events, functions, arrays, and interactive web functionality."
+        },
+        {
+          "name": "React.js",
+          "category": "Framework",
+          "proficiency": 65,
+          "years": "Learning & project experience",
+          "icon": "Atom",
+          "description": "Component-based development, JSX, props, state, hooks, and reusable UI components."
+        },
+        {
+          "name": "Bootstrap",
+          "category": "Styling",
+          "proficiency": 65,
+          "years": "Learning & project experience",
+          "icon": "Grid",
+          "description": "Responsive grid layouts, reusable components, and mobile-friendly interface development."
+        },
+        {
+          "name": "Java",
+          "category": "Programming",
+          "proficiency": 65,
+          "years": "Academic learning",
+          "icon": "Coffee",
+          "description": "Java programming fundamentals, object-oriented programming, and Java SE 17 concepts."
+        },
+        {
+          "name": "Git & GitHub",
+          "category": "Tooling",
+          "proficiency": 75,
+          "years": "Project experience",
+          "icon": "GitBranch",
+          "description": "Version control, repository management, commits, branches, and project hosting."
+        },
+        {
+          "name": "REST APIs",
+          "category": "Networking",
+          "proficiency": 55,
+          "years": "Learning",
+          "icon": "Network",
+          "description": "Understanding API fundamentals, HTTP methods, JSON data, and frontend-backend communication."
+        }
+      ]
+    },
+    {
+      "id": "pm",
+      "code": "MGMT",
+      "title": "Project Management",
+      "slug": "project-management",
+      "tagline": "Organizing projects through structured planning, collaboration, and Agile practices.",
+      "description": "Interested in managing software development workflows, gathering requirements, coordinating activities, and maintaining project documentation. Familiar with Agile and Scrum concepts and project management tools.",
+      "highlights": [
+        "Jira / Agile / Scrum",
+        "Sprint Planning / Backlog Management",
+        "Requirements Gathering / Documentation"
+      ],
+      "skills": [
+        {
+          "name": "Agile & Scrum",
+          "category": "Methodology",
+          "proficiency": 75,
+          "years": "Academic & project experience",
+          "icon": "Repeat",
+          "description": "Understanding Agile principles, Scrum framework, team collaboration, and iterative development."
+        },
+        {
+          "name": "Jira",
+          "category": "Tooling",
+          "proficiency": 80,
+          "years": "Project experience",
+          "icon": "CheckCircle",
+          "description": "Managing project boards, creating tasks, tracking progress, and organizing project workflows."
+        },
+        {
+          "name": "Sprint Planning",
+          "category": "Process",
+          "proficiency": 70,
+          "years": "Project experience",
+          "icon": "Calendar",
+          "description": "Understanding sprint objectives, task allocation, timelines, and development priorities."
+        },
+        {
+          "name": "Backlog Management",
+          "category": "Process",
+          "proficiency": 75,
+          "years": "Project experience",
+          "icon": "List",
+          "description": "Organizing project backlogs, prioritizing tasks, and tracking development activities."
+        },
+        {
+          "name": "Requirements Gathering",
+          "category": "Discovery",
+          "proficiency": 75,
+          "years": "Academic & project experience",
+          "icon": "FileText",
+          "description": "Understanding project requirements, identifying user needs, and documenting functional expectations."
+        },
+        {
+          "name": "User Stories & Epics",
+          "category": "Requirements",
+          "proficiency": 75,
+          "years": "Project experience",
+          "icon": "Users",
+          "description": "Understanding user requirements, creating user stories, and organizing project features."
+        },
+        {
+          "name": "Stakeholder Communication",
+          "category": "Communication",
+          "proficiency": 75,
+          "years": "Academic & event coordination",
+          "icon": "MessageCircle",
+          "description": "Communication, coordination, follow-ups, and collaboration with team members and stakeholders."
+        },
+        {
+          "name": "Project Documentation",
+          "category": "Documentation",
+          "proficiency": 80,
+          "years": "Academic & project experience",
+          "icon": "BookOpen",
+          "description": "Preparing project reports, requirement documents, workflow diagrams, and technical documentation."
+        },
+        {
+          "name": "Risk Management",
+          "category": "Governance",
+          "proficiency": 60,
+          "years": "Academic learning",
+          "icon": "Shield",
+          "description": "Identifying project risks, understanding potential impacts, and exploring mitigation approaches."
+        },
+        {
+          "name": "Confluence",
+          "category": "Documentation",
+          "proficiency": 60,
+          "years": "Learning",
+          "icon": "Book",
+          "description": "Understanding collaborative documentation, knowledge sharing, and project information management."
+        }
+      ]
+    },
+    {
+      "id": "uiux",
+      "code": "DSGN",
+      "title": "UI/UX Designer",
+      "slug": "uiux",
+      "tagline": "Designing intuitive interfaces that balance visual appeal and usability.",
+      "description": "Interested in creating clean, modern, and user-friendly interfaces. Focused on wireframing, prototyping, visual consistency, responsive design, and improving the overall user experience.",
+      "highlights": [
+        "Figma / Wireframing",
+        "UI Design / Prototyping",
+        "Responsive Design / User Experience"
+      ],
+      "skills": [
+        {
+          "name": "Figma",
+          "category": "Tooling",
+          "proficiency": 75,
+          "years": "Learning & project experience",
+          "icon": "Figma",
+          "description": "Creating interface layouts, wireframes, design components, and interactive prototypes."
+        },
+        {
+          "name": "Wireframing",
+          "category": "UX",
+          "proficiency": 75,
+          "years": "Project experience",
+          "icon": "Frame",
+          "description": "Planning page structures, interface layouts, navigation, and content hierarchy."
+        },
+        {
+          "name": "UI Design",
+          "category": "Visual",
+          "proficiency": 75,
+          "years": "Learning & project experience",
+          "icon": "Layout",
+          "description": "Designing visually consistent interfaces with attention to spacing, colors, typography, and layouts."
+        },
+        {
+          "name": "Prototyping",
+          "category": "Prototyping",
+          "proficiency": 65,
+          "years": "Learning",
+          "icon": "Play",
+          "description": "Creating interactive design concepts and demonstrating user navigation and interface behavior."
+        },
+        {
+          "name": "Responsive Design",
+          "category": "Development",
+          "proficiency": 85,
+          "years": "Project experience",
+          "icon": "Smartphone",
+          "description": "Building layouts that adapt to different screen sizes, devices, and resolutions."
+        },
+        {
+          "name": "Color & Typography",
+          "category": "Visual",
+          "proficiency": 75,
+          "years": "Learning & project experience",
+          "icon": "Type",
+          "description": "Applying color combinations, font selection, spacing, and visual hierarchy."
+        },
+        {
+          "name": "User Flow Mapping",
+          "category": "UX",
+          "proficiency": 70,
+          "years": "Project experience",
+          "icon": "GitFork",
+          "description": "Planning user journeys, navigation structures, and application workflows."
+        },
+        {
+          "name": "Draw.io",
+          "category": "Tooling",
+          "proficiency": 75,
+          "years": "Project experience",
+          "icon": "Workflow",
+          "description": "Creating flowcharts, process diagrams, system workflows, and project documentation."
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "code": "DATA",
+      "title": "Data Analytics",
+      "slug": "data-analytics",
+      "tagline": "Exploring data to discover patterns, generate insights, and support decisions.",
+      "description": "Developing data analysis skills through Python, SQL, Excel, and machine learning concepts. Academic research experience includes crop yield prediction and stock price prediction using machine learning algorithms.",
+      "highlights": [
+        "Python / Pandas / NumPy",
+        "SQL / Excel / Data Analysis",
+        "Machine Learning / Research Projects"
+      ],
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Programming",
+          "proficiency": 70,
+          "years": "Academic & project experience",
+          "icon": "Code",
+          "description": "Programming fundamentals, data processing, analysis, and machine learning applications."
+        },
+        {
+          "name": "SQL",
+          "category": "Database",
+          "proficiency": 65,
+          "years": "Academic learning",
+          "icon": "Database",
+          "description": "Database fundamentals, queries, filtering, joins, and data retrieval."
+        },
+        {
+          "name": "Microsoft Excel",
+          "category": "Analytics",
+          "proficiency": 75,
+          "years": "Academic & project experience",
+          "icon": "FileSpreadsheet",
+          "description": "Data organization, spreadsheet operations, formulas, and basic data analysis."
+        },
+        {
+          "name": "Pandas & NumPy",
+          "category": "Libraries",
+          "proficiency": 65,
+          "years": "Academic learning",
+          "icon": "Table",
+          "description": "Working with structured datasets, numerical operations, and data manipulation."
+        },
+        {
+          "name": "Machine Learning",
+          "category": "Research",
+          "proficiency": 70,
+          "years": "Academic project experience",
+          "icon": "Brain",
+          "description": "Exploring algorithms including Random Forest, XGBoost, SVM, KNN, and Decision Trees."
+        },
+        {
+          "name": "Power BI",
+          "category": "Visualization",
+          "proficiency": 55,
+          "years": "Learning",
+          "icon": "BarChart",
+          "description": "Learning data visualization, dashboards, and reporting concepts."
+        }
+      ]
+    }
+  ],
+
+  "topProficiencies": [
+    {
+      "label": "HTML / CSS / Responsive Web Development",
+      "percentage": 85
+    },
+    {
+      "label": "Jira / Agile / Project Coordination",
+      "percentage": 80
+    },
+    {
+      "label": "UI Design / Figma / Wireframing",
+      "percentage": 75
+    },
+    {
+      "label": "JavaScript / React.js",
+      "percentage": 70
+    }
+  ],
+
+  "certifications": [
+    "Oracle Certified Professional: Java SE 17 Developer",
+    "Foundations of Project Management — Google / Coursera",
+    "Project Initiation: Starting a Successful Project — Google / Coursera"
+  ]
+}

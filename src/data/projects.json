@@ -1,0 +1,100 @@
+{
+  "projects": [
+    {
+      "id": "urbantaste-restaurant-website",
+      "category": "frontend",
+      "badge": "WEB APP",
+      "subBadge": "RESTAURANT WEBSITE",
+      "year": "2026",
+      "title": "UrbanTaste - Restaurant Website",
+      "shortDescription": "A modern and responsive restaurant website designed to showcase food offerings, provide an engaging browsing experience, and simplify customer interactions through contact and booking forms.",
+      "fullDescription": "UrbanTaste is a frontend web development project focused on creating an attractive and user-friendly restaurant website. The application features a clean layout, visually appealing sections, responsive design, and interactive functionality. Customers can explore restaurant information, browse food offerings, and use contact and booking forms with input validation. The project demonstrates practical frontend development skills, UI design principles, and JavaScript-based interactivity.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive Web Design",
+        "DOM Manipulation"
+      ],
+      "image": "/assets/projects/urbantaste.png",
+      "liveUrl": "https://deepakharidass.github.io/Restaurant-Website/",
+      "githubUrl": "https://github.com/deepakharidass/Restaurant-Website.git",
+      "features": [
+        "Modern and responsive restaurant website layout",
+        "Attractive food and restaurant presentation",
+        "Interactive contact and booking forms",
+        "JavaScript form validation and user input handling",
+        "Mobile-friendly interface across different screen sizes",
+        "User-friendly navigation and structured content sections"
+      ],
+      "metrics": "Responsive Design · Interactive Forms · Frontend Development"
+    },
+    {
+      "id": "food-delivery-agile-project",
+      "category": "pm",
+      "badge": "AGILE PROJECT",
+      "subBadge": "JIRA PROJECT MANAGEMENT",
+      "year": "2026",
+      "title": "Food Delivery App — Agile Project",
+      "shortDescription": "An end-to-end food delivery application planned and managed using Agile methodologies. Organized project requirements, user stories, sprint planning, backlog management, and team workflows using Jira.",
+      "fullDescription": "A comprehensive Food Delivery Application project designed and managed using Agile and Scrum methodologies. The project covers five key epics: Customer Management, Restaurant Management, Delivery Management, Payment Management, and Customer Support. Created and organized 11 user stories, managed product backlogs, prepared sprint plans, and tracked tasks using Jira. The project includes customer login, restaurant search, cart management, coupon application, order history, reviews, payment processing, refunds, and administrative reporting. Focused on requirements gathering, workflow documentation, sprint execution, risk management, testing, and release planning.",
+      "technologies": [
+        "Jira",
+        "Agile",
+        "Scrum",
+        "Confluence",
+        "Draw.io",
+        "Microsoft Excel"
+      ],
+      "image": "/assets/projects/food-delivery-app.png",
+      "liveUrl": "",
+      "githubUrl": "",
+      "documentUrl": "https://docs.google.com/document/d/1oA6TKfF4hTEqWW-tL47i5BOC7hcGkoL1PhJkT_dBdSE/edit?usp=sharing",
+      "jiraUrl": "https://deepakharidass1.atlassian.net/jira/software/projects/FDAP/summary?atlOrigin=eyJpIjoiNzIxNjRmNjQ1NjQwNDUwZTg3Mzg1YWRmNWExODMyZjUiLCJwIjoiaiJ9",
+      "features": [
+        "Created 5 project epics covering customer, restaurant, delivery, payment, and support modules",
+        "Defined and organized 11 user stories with requirements and acceptance criteria",
+        "Managed product backlog, sprint planning, task tracking, and Kanban workflows using Jira",
+        "Documented project workflows, user journeys, and process diagrams",
+        "Identified project risks and prepared testing and release plans",
+        "Tracked project progress and coordinated activities across functional modules"
+      ],
+      "metrics": "5 Epics · 11 User Stories · Agile Scrum Workflow · Backlog Management · Sprint Planning"
+    },
+    {
+      "id": "simulated-cloud-migration-project",
+      "category": "pm",
+      "badge": "AGILE PROJECT",
+      "subBadge": "JIRA CLOUD MIGRATION",
+      "year": "2026",
+      "title": "Simulated Cloud Migration Project",
+      "shortDescription": "A simulated enterprise cloud migration project focused on migrating an on-premise web application infrastructure to AWS. Managed through Jira using Agile and Scrum methodologies, with emphasis on scalability, availability, data security, and operational flexibility.",
+      "fullDescription": "A comprehensive cloud migration project simulating the transition of an existing on-premise web application to Amazon Web Services (AWS). The project was planned and managed using Jira and Agile Scrum methodologies. Structured into 8 major epics and 31 user stories, covering infrastructure assessment, cloud architecture and planning, environment setup, application and database migration, security and backup, testing and go-live, and post-migration activities. Managed 195 story points across 8 sprints, tracking dependencies, sprint progress, project risks, bugs, and deliverables. Developed project documentation including Work Breakdown Structure (WBS), cloud architecture plans, migration strategies, testing reports, and project closure documentation.",
+      "technologies": [
+        "Jira",
+        "Amazon Web Services (AWS)",
+        "Agile",
+        "Scrum",
+        "Sprint Planning",
+        "Kanban",
+        "Draw.io"
+      ],
+      "image": "/assets/projects/simulated-cloud-migration.png",
+      "liveUrl": "",
+      "githubUrl": "",
+      "documentUrl": "",
+      "jiraUrl": "https://deepakharidass1.atlassian.net/jira/software/projects/CMP/summary?atlOrigin=eyJpIjoiNzJkOGQ0MThjYTU4NDY5MjkyZWYwMmNmNzY5M2U3NmUiLCJwIjoiaiJ9",
+      "features": [
+        "Organized 8 project epics and 31 user stories covering the complete cloud migration lifecycle",
+        "Managed 195 story points across 8 sprints using Agile Scrum methodologies",
+        "Created and maintained product backlogs, sprint plans, task dependencies, and Kanban workflows in Jira",
+        "Planned AWS cloud architecture, infrastructure setup, and application and database migration",
+        "Identified and tracked risks involving data loss, downtime, security, and cloud infrastructure costs",
+        "Managed testing, bug tracking, User Acceptance Testing (UAT), rollback planning, and go-live activities",
+        "Prepared WBS, migration documentation, architecture diagrams, testing reports, and project closure reports",
+        "Tracked sprint progress and project performance through Jira dashboards and reports"
+      ],
+      "metrics": "8 Epics · 31 User Stories · 195 Story Points · 8 Sprints · AWS Cloud Migration"
+    }
+  ]
+}

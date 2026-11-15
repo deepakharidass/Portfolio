@@ -1,0 +1,222 @@
+---
+name: Editorial Monolith
+colors:
+  surface: '#f9f9f9'
+  surface-dim: '#dadada'
+  surface-bright: '#f9f9f9'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f3f3f4'
+  surface-container: '#eeeeee'
+  surface-container-high: '#e8e8e8'
+  surface-container-highest: '#e2e2e2'
+  on-surface: '#1a1c1c'
+  on-surface-variant: '#4c4546'
+  inverse-surface: '#2f3131'
+  inverse-on-surface: '#f0f1f1'
+  outline: '#7e7576'
+  outline-variant: '#cfc4c5'
+  surface-tint: '#5e5e5e'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#1b1b1b'
+  on-primary-container: '#848484'
+  inverse-primary: '#c6c6c6'
+  secondary: '#5f5e5e'
+  on-secondary: '#ffffff'
+  secondary-container: '#e2dfde'
+  on-secondary-container: '#636262'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#1b1c1c'
+  on-tertiary-container: '#848484'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2e2e2'
+  primary-fixed-dim: '#c6c6c6'
+  on-primary-fixed: '#1b1b1b'
+  on-primary-fixed-variant: '#474747'
+  secondary-fixed: '#e5e2e1'
+  secondary-fixed-dim: '#c8c6c5'
+  on-secondary-fixed: '#1c1b1b'
+  on-secondary-fixed-variant: '#474746'
+  tertiary-fixed: '#e3e2e2'
+  tertiary-fixed-dim: '#c7c6c6'
+  on-tertiary-fixed: '#1b1c1c'
+  on-tertiary-fixed-variant: '#464747'
+  background: '#f9f9f9'
+  on-background: '#1a1c1c'
+  surface-variant: '#e2e2e2'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 5rem
+    fontWeight: '700'
+    lineHeight: 5.25rem
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 3rem
+    fontWeight: '700'
+    lineHeight: 3.25rem
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Playfair Display
+    fontSize: 3.5rem
+    fontWeight: '600'
+    lineHeight: 3.75rem
+    letterSpacing: -0.025em
+  headline-xl-mobile:
+    fontFamily: Playfair Display
+    fontSize: 2.25rem
+    fontWeight: '600'
+    lineHeight: 2.5rem
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 2.5rem
+    fontWeight: '500'
+    lineHeight: 2.875rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 1.75rem
+    fontWeight: '500'
+    lineHeight: 2.125rem
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 1.75rem
+    fontWeight: '500'
+    lineHeight: 2.25rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.625rem
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Source Serif 4
+    fontSize: 1.25rem
+    fontWeight: '400'
+    lineHeight: 1.875rem
+    letterSpacing: 0.005em
+  body-md:
+    fontFamily: Source Serif 4
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.625rem
+    letterSpacing: 0.01em
+  body-sm:
+    fontFamily: Source Serif 4
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.375rem
+    letterSpacing: 0.015em
+  label-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.125rem
+    letterSpacing: 0.04em
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 0.75rem
+    fontWeight: '500'
+    lineHeight: 1rem
+    letterSpacing: 0.06em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 0.6875rem
+    fontWeight: '400'
+    lineHeight: 0.875rem
+    letterSpacing: 0.08em
+spacing:
+  gutter: 2rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 2rem
+  space-xl: 4rem
+  space-2xl: 6rem
+---
+
+## Brand & Style
+
+This design system establishes an uncompromising, high-contrast editorial identity rooted in Swiss grid discipline and fine literary publishing. Engineered for a personal portfolio, the aesthetic projects intellectual rigor, technical exactness, and timeless typographic sophistication. 
+
+The emotional impact is architectural, authoritative, and stripped of ornamental distraction. Depth is communicated strictly through hairline rules, typographic scale, and structural framing. Tactile character is reinforced using subtle, fine-grained analog paper noise textures, while spatial structure is demarcated by explicit 1px monochrome gridlines. Every boundary is absolute: sharp corners, zero blur, and instantaneous or precise linear transitions.
+
+## Colors
+
+The palette operates in strict binary monochrome. Color exists solely in tones of absolute black, archival whites, and functional structural greys.
+
+- **Primary (`#000000`):** Pure optical black. Applied to dominant titles, heavy 2px/4px/8px structural rules, solid button fills, and primary high-contrast borders.
+- **Secondary (`#1A1A1A`):** Deep carbon black. Utilized for continuous long-form body copy to soften stark optical vibration against pristine backgrounds while maintaining AAA accessibility.
+- **Tertiary (`#767676`):** Mid-tone neutral grey. Restricted to technical metadata, publication datelines, index tags, and secondary indicators.
+- **Neutral (`#FFFFFF`):** Pure unbleached white. The baseline paper canvas and inverse text fill for solid black modules.
+
+Functional borders utilize `#000000` for deliberate architectural boundaries and `#E5E5E5` for subtle, recurring hairline grid frameworks. Interactive states rely strictly on direct color inversion: black inverted to white, white to black. No chromatic accents are permitted.
+
+## Typography
+
+The typographic hierarchy pairs classical high-contrast serif headlines with a bookmaker’s body text, anchored by a rigid monospaced engine for metadata and technical annotations.
+
+- **Headlines (Playfair Display):** Conveys literary stature and high-editorial drama. Used for major project titles, chapter dividers, and section headings. Keep tracking tight on large sizes to preserve editorial density.
+- **Body Text (Source Serif 4):** Ensures long-form reading comfort, editorial rhythm, and humanist warmth. Optimized for design essays, case study narratives, and project briefs.
+- **Labels & System Meta (JetBrains Mono):** Set exclusively in monospaced uppercase or strict numeric alignments for dates, tags, figure captions, table outputs, and system telemetry. All mono labels above `0.75rem` require an increased letter-spacing to enhance legibility.
+
+## Layout & Spacing
+
+The layout is constructed on an explicit 12-column columnar grid defined by visible or implied structural lines. 
+
+- **Desktop (1024px and above):** 12 columns with a fixed `margin` of `3rem` and `gutter` of `2rem`. Sections are partitioned by solid continuous horizontal rules. Maximum content container width is capped at `1440px` for optimal typographic line-length.
+- **Tablet (768px – 1023px):** 8 columns, `2rem` margins, `1.5rem` gutters. Project galleries collapse from 3 columns to 2.
+- **Mobile (below 768px):** 4 columns, `margin-mobile` of `1.25rem`, and `gutter-mobile` of `1rem`. Structural borders switch to full bleed, snapping edge-to-edge.
+
+Spacing rhythm follows an incremental mathematical ratio (`0.25rem` baseline). Micro-spacing within interactive components remains tightly constrained, while section boundaries utilize generous structural voids (`space-xl`, `space-2xl`) to evoke an open broadsheet page.
+
+## Elevation & Depth
+
+This design system deliberately rejects drop shadows, z-axis lighting, blurred skeuomorphism, and simulated depth. The canvas is entirely planar. 
+
+Visual hierarchy and spatial separation are established through typographic hierarchy, massing, and a strict system of linework:
+- **Hairline Rules (1px solid #000000 or #E5E5E5):** Used for grid boundaries, metadata enclosures, list separators, and card containers.
+- **Structural Dividers (2px solid #000000):** Used for section separators, active tab bars, and secondary headers.
+- **Major Accent Bars (4px solid #000000):** Used for primary section dividers and critical callout margins.
+- **Monumental Anchors (8px solid #000000):** Used for the masthead terminal rule, footer anchors, or prominent hero accents.
+- **Paper Noise:** A persistent, low-opacity (2–3%) monochromatic SVG noise texture is applied across the background to emulate uncoated physical paper stock.
+- **CSS Line Grids:** Delicate background repeating gridlines (`1px` lines spaced at `2rem` intervals in `#F0F0F0`) provide subtle underlying structure to full-bleed hero and gallery panels.
+
+## Shapes
+
+The shape system is strictly rectilinear. All UI primitives—including buttons, input fields, badges, cards, modal sheets, and image masks—utilize an immutable border radius of `0px`. 
+
+Corners are sharp right angles, honoring industrial print traditions and geometric minimalism. Geometric variety is achieved strictly through aspect ratio transformations, border stroke weights, and negative space.
+
+## Components
+
+### Buttons
+- **Primary:** Solid black fill (`#000000`), white label (`#FFFFFF`), `1px solid #000000`, `0px` radius. Font: `JetBrains Mono`, uppercase, tracked out. On hover: invert immediately to solid white fill with black text.
+- **Secondary / Outline:** Transparent fill, `1px solid #000000`, black label. On hover: invert to solid black fill with white text.
+- **Ghost:** Text-only in `JetBrains Mono` with a persistent `1px` underline situated `4px` beneath text baseline. On hover: underline expands to `2px`.
+
+### Chips & Badges
+- Encased in a `1px solid #000000` rectangular box with `0px` radius.
+- Padding: `0.25rem` top/bottom, `0.5rem` left/right.
+- Typography: `JetBrains Mono` at `label-sm`, uppercase. Background is `#FFFFFF` by default; toggled or selected states invert to `#000000` fill with `#FFFFFF` text.
+
+### Lists
+- Tabular and editorial presentation. Each list row is delimited by a top or bottom `1px solid #000000` rule (or `#E5E5E5` for secondary streams).
+- Elements align along column axes: Index number/timestamp (`JetBrains Mono`, left) -> Title (`Playfair Display`, center or left-offset) -Y]Y]K��]Y�ܞH
+�]��Z[��[ۛ��Y�X[YۙY
+K��Hݙ\��]N����[[Z[�]\��][�[��\�Y�X���[[��]H^܈�Y\�H��Y�[�X�]܈[��HY�X\��[��������X�؛�\�	��Y[��]ۜH
+���X�؛����M�M��]X\�K\��Y��Y]\��[��\�[��X��ܛ�[���X��Y�]N���Y�X���]X\�H[��]�H��]H�X\�[��K܈�[Y��\][H�X���]Hܚ\��]HXY�ۘ[ܛ���
+0��
+K��H
+���Y[��]ێ���M�M�X[[ۙ܈�]X\�H��]YHYܙY\�\��Y���X��Y�]N��[�\�Y��Y�X���[�Y]�X��[������[�]�Y[H[�\�[�K[ۛH܈\�YY\��Y����]�Y]\˂�H\�ܘ\N���\��H�\�Y��܈^[��N��]��Z[��[ۛ��܈��][��X�[[��Y[�]\˂�H���\��]N��ܙ\��Yۘ\�[��[�H���H\����Y����������[������[��][ۜ˂������\��	��ڙX�����\�\H�۝Z[�\��Y�[�Y��X�H�HH\��Y��][�K�]�\��[]�][ۈ܈�Y��˂�HYYXH[[Y[���][��\��\�H�[�\�Y[�\�Hܘ^\��[H�HY�][�]\��[����[��܈܈Y�\�Y�۝�\�ۛH\ۈ^X�]ݙ\���H��X�\�[�\�XY\��[����\��\�H��\\�Y[�[^�Y\�[��[�\�[܈\ܚ^�۝[Z\�[�\�

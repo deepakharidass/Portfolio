@@ -1,0 +1,268 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-ring: var(--ring);
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --radius-none: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-full: 0px;
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #000000;
+  --muted: #F5F5F5;
+  --muted-foreground: #525252;
+  --accent: #000000;
+  --accent-foreground: #FFFFFF;
+  --border: #000000;
+  --border-light: #E5E5E5;
+  --card: #FFFFFF;
+  --card-foreground: #000000;
+  --ring: #000000;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #FFFFFF;
+  --muted: #0A0A0A;
+  --muted-foreground: #A3A3A3;
+  --accent: #FFFFFF;
+  --accent-foreground: #000000;
+  --border: #FFFFFF;
+  --border-light: #262626;
+  --card: #000000;
+  --card-foreground: #FFFFFF;
+  --ring: #FFFFFF;
+}
+
+* {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  transition: background-color 0.15s ease, color 0.15s ease;
+  overflow-x: hidden;
+}
+
+/* Subtle editorial paper noise overlay */
+.texture-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+/* Subtle horizontal editorial rules */
+.texture-horizontal-lines {
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 3px, currentColor 3px, currentColor 4px);
+  background-size: 100% 4px;
+  pointer-events: none;
+}
+
+/* Subtle diagonal grid pattern */
+.texture-diagonal-lines {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 38px, currentColor 38px, currentColor 39px);
+  pointer-events: none;
+}
+
+/* 40px Architectural Grid */
+.texture-grid {
+  background-image: linear-gradient(to right, currentColor 1px, transparent 1px),
+                    linear-gradient(to bottom, currentColor 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+}
+
+/* Inverted vertical lines */
+.texture-vertical-lines {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 4px,
+    rgba(0, 0, 0, 0.05) 4px,
+    rgba(0, 0, 0, 0.05) 5px
+  );
+  background-size: 6px 100%;
+  pointer-events: none;
+  opacity: 0.32;
+  transition: opacity 0.15s ease;
+}
+
+.dark .texture-vertical-lines {
+  opacity: 0 !important;
+}
+
+/* Typography Utility Classes */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.glitch-text {
+  position: relative;
+  display: inline-block;
+  isolation: isolate;
+  padding: 0.14em 0.2em;
+  margin: -0.14em -0.2em;
+}
+
+.glitch-text__source {
+  position: relative;
+  z-index: 2;
+}
+
+.glitch-text::before,
+.glitch-text::after,
+.glitch-text__blue {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  padding: inherit;
+  pointer-events: none;
+  opacity: 0;
+  user-select: none;
+  text-decoration-line: none;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+}
+
+.glitch-text::before {
+  z-index: 1;
+  color: #ff0000;
+  mix-blend-mode: multiply;
+}
+
+.glitch-text::after {
+  z-index: 1;
+  color: #00ff00;
+  mix-blend-mode: multiply;
+}
+
+.glitch-text__blue {
+  z-index: 1;
+  color: #0000ff;
+  mix-blend-mode: multiply;
+}
+
+.glitch-text--underline::before,
+.glitch-text--underline::after,
+.glitch-text--underline .glitch-text__blue,
+.glitch-text--underline .glitch-text__source {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.08em;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .glitch-text:hover::before,
+  .glitch-text:hover::after,
+  .glitch-text:hover .glitch-text__blue {
+    opacity: 0.85;
+  }
+
+  .glitch-text:hover::before {
+    animation: glitch-red 0.36s steps(2, end) infinite;
+  }
+
+  .glitch-text:hover::after {
+    animation: glitch-green 0.32s steps(2, end) infinite;
+  }
+
+  .glitch-text:hover .glitch-text__blue {
+    animation: glitch-blue 0.4s steps(2, end) infinite;
+  }
+
+  .glitch-text:hover .glitch-text__source {
+    -webkit-text-stroke: 0.5px currentColor;
+  }
+}
+
+@keyframes glitch-red {
+  0% { clip-path: inset(8% 0 78% 0); transform: translate(3px, -1px); opacity: 0.8; }
+  25% { clip-path: inset(38% 0 45% 0); transform: translate(5px, 1px); opacity: 0.95; }
+  50% { clip-path: inset(68% 0 15% 0); transform: translate(2px, -2px); opacity: 0.75; }
+  75% { clip-path: inset(22% 0 60% 0); transform: translate(4px, 2px); opacity: 0.9; }
+  100% { clip-path: inset(52% 0 30% 0); transform: translate(3px, -1px); opacity: 0.8; }
+}
+
+@keyframes glitch-green {
+  0% { clip-path: inset(62% 0 20% 0); transform: translate(-4px, 1px); opacity: 0.85; }
+  25% { clip-path: inset(12% 0 72% 0); transform: translate(-2px, -1px); opacity: 0.7; }
+  50% { clip-path: inset(44% 0 38% 0); transform: translate(-5px, 2px); opacity: 0.95; }
+  75% { clip-path: inset(76% 0 8% 0); transform: translate(-3px, -2px); opacity: 0.8; }
+  100% { clip-path: inset(30% 0 52% 0); transform: translate(-4px, 1px); opacity: 0.85; }
+}
+
+@keyframes glitch-blue {
+  0% { clip-path: inset(28% 0 50% 0); transform: translate(2px, 2px); opacity: 0.75; }
+  25% { clip-path: inset(72% 0 10% 0); transform: translate(-3px, -1px); opacity: 0.9; }
+  50% { clip-path: inset(6% 0 80% 0); transform: translate(4px, 1px); opacity: 0.8; }
+  75% { clip-path: inset(50% 0 32% 0); transform: translate(-2px, 2px); opacity: 0.95; }
+  100% { clip-path: inset(18% 0 64% 0); transform: translate(3px, -2px); opacity: 0.75; }
+}
+
+html.dark .glitch-text::before,
+html.dark .glitch-text::after,
+html.dark .glitch-text__blue {
+  mix-blend-mode: screen;
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Scroll margin for sticky navbar offset */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Reduced motion honoring */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce), (hover: none), (pointer: coarse) {
+  .glitch-text::before,
+  .glitch-text::after,
+  .glitch-text__blue {
+    display: none;
+  }
+}

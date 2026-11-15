@@ -1,0 +1,37 @@
+
+{
+  "academicMilestones": [
+    {
+      "id": "degree",
+      "period": "2022 — 2026",
+      "badge": "BACHELOR OF ENGINEERING // COMPUTER SCIENCE & ENGINEERING",
+      "title": "Bachelor of Engineering in Computer Science & Engineering",
+      "institution": "Saveetha School of Engineering",
+      "score": "Cumulative CGPA: 7.89 / 10.0",
+      "description": "Completed an undergraduate engineering program focused on computer science fundamentals, software development, programming, database management, web technologies, and analytical problem-solving.",
+      "focusModules": "Java Programming, Data Structures, Database Management Systems, Software Engineering, Web Development",
+      "capstone": "Research Projects: Crop Yield Prediction Using Machine Learning and Stock Price Prediction. Software Projects: Weather Dashboard, UrbanTaste Web Application, and Portfolio Website.",
+      "honors": "Research Presentations on Machine Learning Applications in Agriculture and Stock Market Prediction"
+    },
+    {
+      "id": "hsc",
+      "period": "2020 — 2022",
+      "badge": "HIGHER SECONDARY CERTIFICATE // 12TH STANDARD",
+      "title": "Higher Secondary Education",
+      "institution": "Sunbeam Matric higher secondary School",
+      "score": "Aggregate: 55%",
+      "description": "Completed higher secondary education, developing foundational knowledge in academic subjects, analytical thinking, and problem-solving.",
+      "focusModules": "Mathematics, Science, Computer Science"
+    },
+    {
+      "id": "sslc",
+      "period": "2019 — 2020",
+      "badge": "SECONDARY SCHOOL CERTIFICATE // 10TH STANDARD",
+      "title": "Secondary School Education",
+      "institution": "Sunbeam Matric higher secondary School",
+      "score": "Aggregate: 54%",
+      "description": "Completed secondary school education, building foundational knowledge in mathematics, science, languages, and general academics.",
+      "focusModules": "Mathematics, Science, English, Social Studies"
+    }
+  ]
+}

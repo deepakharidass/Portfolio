@@ -1,0 +1,176 @@
+{
+  "planHash": "af73b576643d3b727a857cc21881ab17d7091428e52630ba0a624f666262cbee",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-11-15T05:51:33.0526116Z",
+  "retryCount": 1,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 41278,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "production-build",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E react-example@0.0.0 build\r\n\u003E vite build\r\n\r\n\u001B[36mvite v8.3.8 \u001B[32mbuilding client environment for production...\u001B[36m\u001B[39m\r\ntransforming...\r\n\u2713 1703 modules transformed.\r\nrendering chunks...\r\ncomputing gzip size...\r\ndist/index.html                   1.92 kB \u2502 gzip:   0.87 kB\r\ndist/assets/index-D8zB8naB.css   45.95 kB \u2502 gzip:   9.34 kB\r\ndist/assets/index-Cx3yjpQJ.js   376.38 kB \u2502 gzip: 111.77 kB\r\n\r\n\u001B[32m\u2713 built in 1.83s\u001B[39m\r\n",
+        "durationMs": 4348
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E react-example@0.0.0 test\r\n\u003E vitest run\r\n\r\n\r\n RUN  v5.1.0 E:/Portfolio website\r\n\r\n\r\n Test Files  1 passed (1)\r\n      Tests  6 passed (6)\r\n   Start at  11:21:24\r\n   Duration  273ms (tests 71%, transform 16%, import 8%, worker 5%)\r\n\r\n",
+        "durationMs": 1442,
+        "testResults": {
+          "testFramework": "vitest",
+          "runnerDetectedFrom": "package_json",
+          "testsTotal": 6,
+          "testsPassed": 6,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": false
+        }
+      },
+      {
+        "name": "production-projects-route",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!doctype html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\u0022UTF-8\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 /\u003E\n    \u003Cscript\u003E\n      (function () {\n        var route = new URLSearchParams(window.location.search).get(\u0022p\u0022);\n        if (route \u0026\u0026 route.startsWith(\u0022/\u0022) \u0026\u0026 !route.startsWith(\u0022//\u0022)) {\n          window.history.replaceState(null, \u0022\u0022, route);\n        }\n      })();\n    \u003C/script\u003E\n    \u003Ctitle\u003EDH_PORTFOLIO.EXE\u003C/title\u003E\n    \u003Cmeta name=\u0022description\u0022 content=\u0022Award-quality personal portfolio website for Computer Science Engineering graduate Deepak H, expressed in an editorial Minimalist Monochrome design system.\u0022 /\u003E\n    \u003Cmeta property=\u0022og:title\u0022 content=\u0022DH_PORTFOLIO.EXE\u0022 /\u003E\n    \u003Cmeta property=\u0022og:description\u0022 content=\u0022Award-quality personal portfolio website for Computer Science Engineering graduate Deepak H, expressed in an editorial Minimalist Monochrome design system.\u0022 /\u003E\n    \u003Cmeta property=\u0022og:type\u0022 content=\u0022website\u0022 /\u003E\n    \u003Cmeta name=\u0022twitter:card\u0022 content=\u0022summary_large_image\u0022 /\u003E\n    \u003Clink rel=\u0022icon\u0022 type=\u0022image/svg\u002Bxml\u0022 href=\u0022/favicon.svg\u0022 /\u003E\n    \u003C!-- Editorial Typography: Playfair Display, Source Serif 4, JetBrains Mono --\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.googleapis.com\u0022 /\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.gstatic.com\u0022 crossorigin /\u003E\n    \u003Clink href=\u0022https://fonts.googleapis.com/css2?family=JetBrains\u002BMono:wght@400;500;600;700\u0026family=Playfair\u002BDisplay:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700\u0026family=Source\u002BSerif\u002B4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400\u0026display=swap\u0022 rel=\u0022stylesheet\u0022 /\u003E\n    \u003Cscript type=\u0022module\u0022 crossorigin src=\u0022/assets/index-Cx3yjpQJ.js\u0022\u003E\u003C/script\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 crossorigin href=\u0022/assets/index-D8zB8naB.css\u0022\u003E\n  \u003C/head\u003E\n  \u003Cbody class=\u0022bg-background text-foreground antialiased selection:bg-foreground selection:text-background\u0022\u003E\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\n  \u003C/body\u003E\n\u003C/html\u003E\n\n\n--- server output ---\n\r\n\u003E react-example@0.0.0 start\r\n\u003E tsx server.ts --production\r\n\r\n\u25C7 injected env (5) from .env // tip: \u2318 multiple files { path: [\u0027.env.local\u0027, \u0027.env\u0027] }\r\nDeepak H Portfolio server active on http://0.0.0.0:3101\r\n",
+        "durationMs": 2593
+      },
+      {
+        "name": "production-education-route",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!doctype html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\u0022UTF-8\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 /\u003E\n    \u003Cscript\u003E\n      (function () {\n        var route = new URLSearchParams(window.location.search).get(\u0022p\u0022);\n        if (route \u0026\u0026 route.startsWith(\u0022/\u0022) \u0026\u0026 !route.startsWith(\u0022//\u0022)) {\n          window.history.replaceState(null, \u0022\u0022, route);\n        }\n      })();\n    \u003C/script\u003E\n    \u003Ctitle\u003EDH_PORTFOLIO.EXE\u003C/title\u003E\n    \u003Cmeta name=\u0022description\u0022 content=\u0022Award-quality personal portfolio website for Computer Science Engineering graduate Deepak H, expressed in an editorial Minimalist Monochrome design system.\u0022 /\u003E\n    \u003Cmeta property=\u0022og:title\u0022 content=\u0022DH_PORTFOLIO.EXE\u0022 /\u003E\n    \u003Cmeta property=\u0022og:description\u0022 content=\u0022Award-quality personal portfolio website for Computer Science Engineering graduate Deepak H, expressed in an editorial Minimalist Monochrome design system.\u0022 /\u003E\n    \u003Cmeta property=\u0022og:type\u0022 content=\u0022website\u0022 /\u003E\n    \u003Cmeta name=\u0022twitter:card\u0022 content=\u0022summary_large_image\u0022 /\u003E\n    \u003Clink rel=\u0022icon\u0022 type=\u0022image/svg\u002Bxml\u0022 href=\u0022/favicon.svg\u0022 /\u003E\n    \u003C!-- Editorial Typography: Playfair Display, Source Serif 4, JetBrains Mono --\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.googleapis.com\u0022 /\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.gstatic.com\u0022 crossorigin /\u003E\n    \u003Clink href=\u0022https://fonts.googleapis.com/css2?family=JetBrains\u002BMono:wght@400;500;600;700\u0026family=Playfair\u002BDisplay:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700\u0026family=Source\u002BSerif\u002B4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400\u0026display=swap\u0022 rel=\u0022stylesheet\u0022 /\u003E\n    \u003Cscript type=\u0022module\u0022 crossorigin src=\u0022/assets/index-Cx3yjpQJ.js\u0022\u003E\u003C/script\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 crossorigin href=\u0022/assets/index-D8zB8naB.css\u0022\u003E\n  \u003C/head\u003E\n  \u003Cbody class=\u0022bg-background text-foreground antialiased selection:bg-foreground selection:text-background\u0022\u003E\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\n  \u003C/body\u003E\n\u003C/html\u003E\n\n\n--- server output ---\n\r\n\u003E react-example@0.0.0 start\r\n\u003E tsx server.ts --production\r\n\r\n\u25C7 injected env (5) from .env // tip: \u2318 enable debugging { debug: true }\r\nUnable to start portfolio server: Error: Port 3101 is already in use. Stop the other process or run with PORT=\u003Cavailable-port\u003E.\r\n    at Server.handleError (E:\\Portfolio website\\server.ts:332:13)\r\n    at Object.onceWrapper (node:events:623:26)\r\n    at Server.emit (node:events:508:28)\r\n    at emitErrorNT (node:net:1976:8)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\r\n",
+        "durationMs": 2093
+      },
+      {
+        "name": "production-contact-route",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!doctype html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\u0022UTF-8\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1.0\u0022 /\u003E\n    \u003Cscript\u003E\n      (function () {\n        var route = new URLSearchParams(window.location.search).get(\u0022p\u0022);\n        if (route \u0026\u0026 route.startsWith(\u0022/\u0022) \u0026\u0026 !route.startsWith(\u0022//\u0022)) {\n          window.history.replaceState(null, \u0022\u0022, route);\n        }\n      })();\n    \u003C/script\u003E\n    \u003Ctitle\u003EDH_PORTFOLIO.EXE\u003C/title\u003E\n    \u003Cmeta name=\u0022description\u0022 content=\u0022Award-quality personal portfolio website for Computer Science Engineering graduate Deepak H, expressed in an editorial Minimalist Monochrome design system.\u0022 /\u003E\n    \u003Cmeta property=\u0022og:title\u0022 content=\u0022DH_PORTFOLIO.EXE\u0022 /\u003E\n    \u003Cmeta property=\u0022og:description\u0022 content=\u0022Award-quality personal portfolio website for Computer Science Engineering graduate Deepak H, expressed in an editorial Minimalist Monochrome design system.\u0022 /\u003E\n    \u003Cmeta property=\u0022og:type\u0022 content=\u0022website\u0022 /\u003E\n    \u003Cmeta name=\u0022twitter:card\u0022 content=\u0022summary_large_image\u0022 /\u003E\n    \u003Clink rel=\u0022icon\u0022 type=\u0022image/svg\u002Bxml\u0022 href=\u0022/favicon.svg\u0022 /\u003E\n    \u003C!-- Editorial Typography: Playfair Display, Source Serif 4, JetBrains Mono --\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.googleapis.com\u0022 /\u003E\n    \u003Clink rel=\u0022preconnect\u0022 href=\u0022https://fonts.gstatic.com\u0022 crossorigin /\u003E\n    \u003Clink href=\u0022https://fonts.googleapis.com/css2?family=JetBrains\u002BMono:wght@400;500;600;700\u0026family=Playfair\u002BDisplay:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700\u0026family=Source\u002BSerif\u002B4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400\u0026display=swap\u0022 rel=\u0022stylesheet\u0022 /\u003E\n    \u003Cscript type=\u0022module\u0022 crossorigin src=\u0022/assets/index-Cx3yjpQJ.js\u0022\u003E\u003C/script\u003E\n    \u003Clink rel=\u0022stylesheet\u0022 crossorigin href=\u0022/assets/index-D8zB8naB.css\u0022\u003E\n  \u003C/head\u003E\n  \u003Cbody class=\u0022bg-background text-foreground antialiased selection:bg-foreground selection:text-background\u0022\u003E\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\n  \u003C/body\u003E\n\u003C/html\u003E\n\n\n--- server output ---\n\r\n\u003E react-example@0.0.0 start\r\n\u003E tsx server.ts --production\r\n\r\n\u25C7 injected env (5) from .env // tip: \u2318 enable debugging { debug: true }\r\nUnable to start portfolio server: Error: Port 3101 is already in use. Stop the other process or run with PORT=\u003Cavailable-port\u003E.\r\n    at Server.handleError (E:\\Portfolio website\\server.ts:332:13)\r\n    at Object.onceWrapper (node:events:623:26)\r\n    at Server.emit (node:events:508:28)\r\n    at emitErrorNT (node:net:1976:8)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)\r\n",
+        "durationMs": 2066
+      }
+    ],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "ci",
+          "--legacy-peer-deps"
+        ],
+        "cwd": "E:\\Portfolio website",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "devServer",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "dev"
+        ],
+        "cwd": "E:\\Portfolio website",
+        "env": {
+          "PORT": "3100"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "production-build",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "build"
+        ],
+        "cwd": "E:\\Portfolio website",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "E:\\Portfolio website",
+        "env": {
+          "TEST_BASE_URL": "http://localhost:3100"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "production-projects-route",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "start"
+        ],
+        "cwd": "E:\\Portfolio website",
+        "env": {
+          "PORT": "3101"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "production-education-route",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "start"
+        ],
+        "cwd": "E:\\Portfolio website",
+        "env": {
+          "PORT": "3101"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "production-contact-route",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "start"
+        ],
+        "cwd": "E:\\Portfolio website",
+        "env": {
+          "PORT": "3101"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

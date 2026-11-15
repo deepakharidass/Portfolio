@@ -1,0 +1,6 @@
+{
+  "name": "DH_PORTFOLIO.EXE",
+  "description": "Award-quality personal portfolio website for Computer Science Engineering graduate Deepak H, expressed in an editorial Minimalist Monochrome design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

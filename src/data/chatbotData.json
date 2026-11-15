@@ -1,0 +1,157 @@
+
+{
+  "systemIdentity": "You are the AI assistant for Deepak H's portfolio. Answer questions using only the information provided in this context. If information is unavailable, reply: 'That information isn't available in Deepak H's portfolio.' Be professional, concise, friendly, and accurate. Never invent qualifications, experience, skills, or achievements.",
+
+  "profile": {
+    "name": "Deepak H",
+    "fullName": "Deepak H",
+    "education": "Bachelor of Engineering (B.E.) in Computer Science and Engineering, Saveetha School of Engineering. Expected graduation: November 2026. School education: Sunbeam School.",
+    "domains": "Frontend Development, Project Management, Business Analysis, and UI/UX Design.",
+    "summary": "Computer Science and Engineering student and aspiring technology professional interested in building responsive web applications, managing software development projects, analyzing business requirements, and creating user-friendly digital experiences. Passionate about continuous learning and applying modern technologies to solve real-world problems.",
+    "careerObjective": "Seeking entry-level opportunities in Frontend Development, Project Coordination, Business Analysis, and IT Project Management where I can apply my technical knowledge, problem-solving abilities, and organizational skills.",
+    "location": "Vellore, Tamil Nadu, India",
+    "contact": {
+      "email": "deepakharidass1@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/deepak-h-3a64282b0",
+      "github": "https://github.com/deepakharidass"
+    },
+    "availability": "Open to entry-level and fresher opportunities in IT, Frontend Development, Project Coordination, and related technology roles. Open to relocation."
+  },
+
+  "skillsSummary": {
+    "frontend": "HTML5, CSS3, JavaScript ES6+, React.js, Responsive Web Design, Tailwind CSS, REST APIs, Git, GitHub, and basic web application development.",
+
+    "programming": "Java, Python, JavaScript, SQL, MySQL, and basic programming concepts.",
+
+    "projectManagement": "Agile Methodology, Scrum, Jira, Sprint Planning, Product Backlog Management, User Stories, Requirements Gathering, Stakeholder Communication, Task Tracking, Risk Management, Project Documentation, Kanban, and SDLC.",
+
+    "uiux": "Figma, Wireframing, UI Design, UX Design, Prototyping, User Flow Mapping, Responsive Design, and Draw.io.",
+
+    "dataAnalytics": "Python, Pandas, NumPy, SQL, Microsoft Excel, Power BI, Tableau, Data Analysis, and Data Visualization.",
+
+    "tools": "Jira, Confluence, Git, GitHub, Figma, Draw.io, Microsoft Excel, VS Code, and Overleaf."
+  },
+
+  "certifications": [
+    {
+      "name": "Oracle Certified Professional: Java SE 17 Developer",
+      "provider": "Oracle"
+    },
+    {
+      "name": "Foundations of Project Management",
+      "provider": "Google / Coursera"
+    },
+    {
+      "name": "Project Initiation: Starting a Successful Project",
+      "provider": "Google / Coursera"
+    }
+  ],
+
+  "projectsSummary": [
+    {
+      "name": "UrbanTaste — Restaurant Website",
+      "category": "Frontend Development",
+      "stack": "HTML, CSS, JavaScript",
+      "highlights": "Developed a restaurant website featuring food presentation, restaurant information, interactive sections, contact functionality, and booking form validation. Focused on responsive design and user-friendly navigation."
+    },
+    {
+      "name": "Food Delivery Application — Jira Agile Project",
+      "category": "Project Management / Agile",
+      "stack": "Jira, Agile, Scrum, Confluence, Draw.io, Microsoft Excel",
+      "highlights": "Planned and organized a food delivery application using Agile and Scrum methodologies. Created 5 epics and 11 user stories covering customer management, restaurant management, delivery, payments, and customer support. Worked on backlog management, sprint planning, Kanban workflows, project documentation, risk tracking, testing, and release planning."
+    },
+    {
+      "name": "Simulated Cloud Migration Project",
+      "category": "IT Project Management / Cloud Migration",
+      "stack": "Jira, AWS, Agile, Scrum, Draw.io",
+      "highlights": "Created a simulated enterprise cloud migration project involving the transition of an on-premise application to AWS. Focused on project planning, infrastructure assessment, migration activities, cloud architecture, security, risk management, testing, sprint tracking, and project documentation using Jira."
+    },
+    {
+      "name": "Weather Dashboard",
+      "category": "Frontend Web Development",
+      "stack": "HTML, CSS, JavaScript, OpenWeatherMap API, Local Storage",
+      "highlights": "Developed a weather dashboard featuring current weather information, a 5-day forecast, location-based weather data, saved favorite locations, temperature unit switching, and theme customization."
+    },
+    {
+      "name": "Advanced Portfolio Website",
+      "category": "Frontend Development / UI Design",
+      "stack": "HTML, CSS, JavaScript, CSS Grid, Flexbox",
+      "highlights": "Designed and developed a personal portfolio website showcasing professional information, technical skills, projects, education, and contact details. Implemented responsive layouts and light/dark theme functionality."
+    },
+    {
+      "name": "Stock Market Price Prediction",
+      "category": "Machine Learning / Research",
+      "stack": "Python, Machine Learning, Random Forest, XGBoost, SVM",
+      "highlights": "Worked on stock price prediction using machine learning algorithms, including Random Forest, XGBoost, Support Vector Machine, Decision Tree, and Linear Regression. Compared model performance using historical stock market data."
+    },
+    {
+      "name": "Crop Yield Prediction Using Machine Learning",
+      "category": "Machine Learning / Research",
+      "stack": "Python, Machine Learning, SVM, Random Forest, KNN, CNN",
+      "highlights": "Explored machine learning approaches for crop yield prediction and compared different algorithms, including Support Vector Machine, Random Forest, K-Nearest Neighbors, Convolutional Neural Networks, and Decision Trees."
+    }
+  ],
+
+  "achievements": [
+    "Presented research work on Crop Yield Prediction using Machine Learning.",
+    "Presented research work on Stock Market Price Prediction.",
+    "Worked as an Event Coordinator for the Tectrix symposium.",
+    "Won three prizes in a Web Development Hackathon."
+  ],
+
+  "faq": [
+    {
+      "q": "Tell me about Deepak.",
+      "a": "Deepak H is a Computer Science and Engineering student at Saveetha School of Engineering. He is interested in Frontend Development, Project Management, Business Analysis, and UI/UX Design. He has worked on web development projects, Jira-based Agile project simulations, and machine learning research."
+    },
+    {
+      "q": "What skills does Deepak have?",
+      "a": "Deepak has skills in HTML, CSS, JavaScript, React.js, Java, Python, SQL, Jira, Agile, Scrum, Figma, Draw.io, Git, GitHub, and data analysis tools."
+    },
+    {
+      "q": "What frontend projects has Deepak developed?",
+      "a": "Deepak has worked on UrbanTaste Restaurant Website, Weather Dashboard, and Advanced Portfolio Website. These projects demonstrate his knowledge of HTML, CSS, JavaScript, responsive design, API integration, and frontend development."
+    },
+    {
+      "q": "What project management experience does Deepak have?",
+      "a": "Deepak has completed simulated project management work using Jira and Agile methodologies. His projects include a Food Delivery Application and a Simulated Cloud Migration Project, involving epics, user stories, backlog management, sprint planning, task tracking, risk management, and documentation."
+    },
+    {
+      "q": "What project management tools does Deepak know?",
+      "a": "Deepak has worked with Jira, Confluence, Draw.io, Microsoft Excel, and Agile/Scrum workflows."
+    },
+    {
+      "q": "What UI/UX skills does Deepak have?",
+      "a": "Deepak has knowledge of Figma, wireframing, prototyping, UI design, UX design, user flow mapping, and responsive web design."
+    },
+    {
+      "q": "What certifications does Deepak hold?",
+      "a": "Deepak holds the Oracle Certified Professional: Java SE 17 Developer certification and has completed Google's Foundations of Project Management and Project Initiation courses through Coursera."
+    },
+    {
+      "q": "Does Deepak have work experience?",
+      "a": "Deepak is pursuing entry-level opportunities and showcases academic, personal, research, and simulated project experience through his portfolio."
+    },
+    {
+      "q": "What are Deepak's career interests?",
+      "a": "Deepak is interested in Frontend Development, Project Coordination, IT Project Management, Business Analysis, and UI/UX Design."
+    },
+    {
+      "q": "How can I contact Deepak?",
+      "a": "You can contact Deepak through email at deepakharidass1@gmail.com, LinkedIn at linkedin.com/in/deepak-h-3a64282b0, or GitHub at github.com/deepakharidass."
+    }
+  ],
+
+  "suggestedPrompts": [
+    "Tell me about Deepak.",
+    "What are Deepak's technical skills?",
+    "What frontend projects has Deepak developed?",
+    "Tell me about the Food Delivery Jira project.",
+    "Explain the Simulated Cloud Migration Project.",
+    "What project management tools does Deepak know?",
+    "What are Deepak's certifications?",
+    "What are Deepak's career interests?",
+    "What machine learning projects has Deepak completed?",
+    "How can I contact Deepak?"
+  ]
+}

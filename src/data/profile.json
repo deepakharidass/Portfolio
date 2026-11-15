@@ -1,0 +1,52 @@
+
+{
+  "name": "Deepak H",
+  "initials": "DH",
+
+  "titles": [
+    "Frontend Developer",
+    "Project Coordinator",
+    "UI/UX Designer",
+    "Business Analyst",
+    "Aspiring Data Analyst"
+  ],
+
+  "summary": "Computer Science and Engineering graduate passionate about building responsive web applications, designing intuitive user experiences, coordinating software projects, and exploring data-driven solutions. Interested in combining technical knowledge, creativity, and problem-solving to develop meaningful digital products.",
+
+  "detailedBio": "Technology is a combination of creativity, logic, and structured problem-solving. I enjoy developing responsive web applications, creating intuitive user interfaces, and transforming ideas into functional digital experiences. My background in Computer Science and Engineering has helped me develop a foundation in programming, software development, database management, and modern web technologies. Alongside development, I have an interest in Agile project management, business analysis, and coordinating workflows that bring ideas into reality.",
+
+  "secondaryNarrative": "My professional interests span frontend development, UI/UX design, project coordination, and data analytics. Through academic research, software development projects, and practical exposure to project management tools such as Jira and Figma, I continue to strengthen my technical and organizational skills. I enjoy learning new technologies, collaborating with teams, understanding requirements, and creating user-focused solutions.",
+
+  "creed": "Great digital experiences are built through thoughtful design, clean code, continuous learning, and purposeful execution. My goal is to turn complex ideas into simple, useful, and meaningful solutions.",
+
+  "email": "deepakharidass1@gmail.com",
+  "whatsappNumber": "916383059912",
+
+  "linkedin": "https://www.linkedin.com/in/deepak-h-3a64282b0",
+  "github": "https://github.com/deepakharidass",
+
+  "location": "Vellore, Tamil Nadu, India",
+  "preferredLocations": [
+    "Chennai",
+    "Bengaluru",
+    "Vellore"
+  ],
+
+  "coordinates": null,
+  "indexId": "DH-PORTFOLIO",
+  "status": "Open to Job Opportunities",
+
+  "dossierVolume": "PROFESSIONAL PORTFOLIO",
+
+  "profileImage": "/assets/aistudio/Photo_eb394686.jpg",
+  "resumeUrl": "/assets/resume/Deepak_Haridass_Resume.pdf",
+
+  "corePillars": [
+    "Frontend Development",
+    "Project Management",
+    "UI/UX Design",
+    "Agile / Scrum",
+    "Business Analysis",
+    "Data Analytics"
+  ]
+}
